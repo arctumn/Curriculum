@@ -13,16 +13,16 @@ Full‑stack engineer and software developer consultant with **4+ years** of exp
 
 I’ve been heavily involved in **modernizing legacy systems**, building **GDPR‑compliant platforms**, and designing internal CRMs and public‑facing portals. I also manage **CI/CD pipelines** (Azure DevOps, GitLab), set up infrastructure (Docker, NGINX, Azure), and participate in code reviews.
 
-My main concerns are **clean architecture**, **strong typing**, **accessibility**, and **performance**.
+My main concerns are **Performant Apps**, **strong typing** and **accessibility**.
 
 ---
 
 ## SKILLS
 
 **Frontend**  
-- Angular (Standalone Components, up to v20), PrimeNG, Bootstrap 5, Carbon v11  
+- Angular (Standalone Components,Zoneless, up to v21), PrimeNG, Bootstrap 5, Carbon v11  
 - HTML5, CSS3, RxJS  
-- Responsive Design, Animations, Skeleton Loaders, Modals, Toast Notifications  
+- Responsive Design, Animations, Skeleton Loaders, Modals, Toast Notifications
 - Accessibility (WCAG 2.1)
 
 **Backend & APIs**  
@@ -33,7 +33,7 @@ My main concerns are **clean architecture**, **strong typing**, **accessibility*
 **DevOps & Cloud**  
 - Azure DevOps, GitLab CI/CD, Pipelines  
 - Docker, NGINX  
-- Azure App Service, Static Web Apps, Storage, Logic Apps
+- Azure App Service, Static Web Apps, Storage, Logic Apps,  Function Apps
 
 **Other**  
 - Git, JIRA, GitLab Kanban  
@@ -59,7 +59,7 @@ My main concerns are **clean architecture**, **strong typing**, **accessibility*
 
 ## PROFESSIONAL EXPERIENCE
 
-### Software Developer Consultant — Latitudde – Digital Enablers  
+### Software Developer Consultant — Conkord 
 *Fundão, Portugal • September 2021 – Present*
 
 Full‑stack consultant working on enterprise web applications using **Angular**, **.NET**, and **Azure**, with responsibilities covering frontend development, backend microservices, and CI/CD/infrastructure.
@@ -74,11 +74,12 @@ Full‑stack consultant working on enterprise web applications using **Angular**
   - Input masking and real‑time field formatting  
 - Introduced UI enhancements with **Angular animations**, skeleton loaders, modals, and toast notifications to improve UX and perceived performance.  
 - Built **token refresh mechanisms** using Angular HTTP interceptors and implemented **client‑side caching** to reduce redundant API calls.  
-- Led the migration of an **Angular 7** codebase (Bootstrap 4, jQuery, PrimeNG) to **Angular 19**, including:  
+- Led the migration of an **Angular 7** codebase (Bootstrap 4, jQuery, PrimeNG) to **Angular 19**, including:
   - Refactoring to **Standalone Components**  
   - **Lazy‑loaded routes**  
   - Typed templates and fully typified legacy TypeScript code  
 - Reconstructed legacy tables and selectors to preserve UI/UX while removing outdated dependencies.
+- Migrated older Angular apps to new Angular versions with modern Angular patterns (Zoneless, onPush, Signals).
 
 #### GDPR Consent Management Platform
 
@@ -106,11 +107,21 @@ Full‑stack consultant working on enterprise web applications using **Angular**
 
 ---
 
-### Major Migration Projects (Latitudde)
+### Major Migration Projects (Conkord)
 
-**Angular 15 (IBM Carbon v10) → Angular 20 (Carbon v11)**  
-- Migrated the application to **Standalone Components**.  
-- Refactored layout for full responsive behavior.  
+**Angular 7 → Angular 19 Modernization**  
+- Migrated an Angular 7 app to **Angular 19** with Bootstrap 4 → 5 and PrimeNG updates.  
+- Converted the architecture to **Standalone Components**.  
+- Rebuilt legacy tables with modern Bootstrap while preserving UX.  
+- Implemented **lazy‑loaded routing** and fully typified the legacy codebase.  
+- Applied **WCAG 2.x** accessibility standards.  
+- Refactored the generic REST architecture used across the app.
+
+**Angular 15 (IBM Carbon v10) → Angular 21 (Carbon v11)**  
+- Migrated the application to **Standalone Components**.
+- Converted ZoneJs Angular app to zoneless with signals and onPush.  
+- Refactored layout for full responsive behavior.
+- Improved the App accessability (WCAG). 
 - Upgraded step‑by‑step from Angular 15 to 20, handling breaking changes.  
 - Removed unsafe/outdated dependencies and aligned with current Angular and Carbon best practices.  
 - Implemented **lazy loading** for components and routes.  
@@ -128,15 +139,7 @@ Full‑stack consultant working on enterprise web applications using **Angular**
 
 ---
 
-### Additional Angular & .NET Projects (Latitudde)
-
-**Angular 7 → Angular 19 Modernization**  
-- Migrated an Angular 7 app to **Angular 19** with Bootstrap 4 → 5 and PrimeNG updates.  
-- Converted the architecture to **Standalone Components**.  
-- Rebuilt legacy tables with modern Bootstrap while preserving UX.  
-- Implemented **lazy‑loaded routing** and fully typified the legacy codebase.  
-- Applied **WCAG 2.x** accessibility standards.  
-- Refactored the generic REST architecture used across the app.
+### Additional Angular & .NET Projects (Conkord)
 
 **Microservice Development (Docker + Azure)**  
 - Email synchronization microservice (Mailchimp ↔ internal DB).  
