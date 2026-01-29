@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Lopes - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10pt;
+            line-height: 1.4;
+            color: #333;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+            background: white;
+        }
+        
+        h1 {
+            font-size: 24pt;
+            color: #1a365d;
+            margin-bottom: 5px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 9pt;
+        }
+        
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        
+        h2 {
+            font-size: 12pt;
+            color: #1a365d;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 4px;
+            margin-top: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h3 {
+            font-size: 11pt;
+            color: #1e40af;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+        
+        h4 {
+            font-size: 10pt;
+            color: #374151;
+            margin-top: 10px;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+        
+        .job-title {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 9pt;
+            margin-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 18px;
+            margin-bottom: 8px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+        }
+        
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .skill-category strong {
+            color: #1e40af;
+            display: block;
+            margin-bottom: 4px;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin: 12px 0;
+        }
+        
+        strong {
+            color: #1f2937;
+        }
+        
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .profile-text {
+            background: #f8fafc;
+            padding: 12px;
+            border-left: 3px solid #3b82f6;
+            margin-bottom: 10px;
+        }
+        
+        .cert-list, .lang-list {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .cert-list li::before, .lang-list li::before {
+            content: "✓ ";
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+        .project-block {
+            background: #f9fafb;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        
+        .project-block strong {
+            color: #1e40af;
+        }
+
+        @media print {
+            body {
+                padding: 10mm 15mm;
+            }
+            
+            h2 {
+                page-break-after: avoid;
+            }
+            
+            .project-block, h3 {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>PEDRO LOPES</h1>
+    <div class="contact-info">
+        Covilhã, Portugal • +351 963 318 521<br>
+        📧 <a href="mailto:pedro.pires.lopes@outlook.com">pedro.pires.lopes@outlook.com</a> • 
+        🌐 <a href="https://github.com/arctumn">github.com/arctumn</a> • 
+        🔗 <a href="https://www.linkedin.com/in/pedro-lopes-685082182/">LinkedIn</a>
+    </div>
+
+    <h2>Profile</h2>
+    <div class="profile-text">
+        <p>Full-stack engineer and software developer consultant with <strong>4+ years</strong> of experience, focused on <strong>Angular</strong> and <strong>.NET</strong>. I work end-to-end on web applications: frontend (Angular, PrimeNG, Bootstrap), backend (.NET Core/.NET 5–10, microservices), and infrastructure (Docker, NGINX, Azure).</p>
+        <p>I've been heavily involved in <strong>modernizing legacy systems</strong>, building <strong>GDPR-compliant platforms</strong>, and designing internal CRMs and public-facing portals. I also manage <strong>CI/CD pipelines</strong> (Azure DevOps, GitLab), set up infrastructure (Docker, NGINX, Azure), and participate in code reviews.</p>
+        <p>My main concerns are <strong>Performant Apps</strong>, <strong>strong typing</strong> and <strong>accessibility</strong>.</p>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills-section">
+        <div class="skill-category">
+            <strong>Frontend</strong>
+            Angular (Standalone Components, Zoneless, up to v21), PrimeNG, Bootstrap 5, Carbon v11, HTML5, CSS3, RxJS, Responsive Design, Animations, Accessibility (WCAG 2.1)
+        </div>
+        <div class="skill-category">
+            <strong>Backend & APIs</strong>
+            .NET 5–10, .NET Core, REST APIs, Entity Framework, Microservices, Azure Functions
+        </div>
+        <div class="skill-category">
+            <strong>DevOps & Cloud</strong>
+            Azure DevOps, GitLab CI/CD, Docker, NGINX, Azure App Service, Static Web Apps, Storage, Logic Apps, Function Apps
+        </div>
+        <div class="skill-category">
+            <strong>Other</strong>
+            Git, JIRA, GitLab Kanban, NuGet Packaging, Software Architecture, Clean Code, Code Review
+        </div>
+    </div>
+
+    <div class="section-grid">
+        <div>
+            <h2>Certifications</h2>
+            <ul class="cert-list">
+                <li>Complete SEO Course – From basic to advanced</li>
+                <li>Angular Styling & Animations (Angular 2+)</li>
+                <li>Introduction to Web Accessibility – WCAG 2.1</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Languages</h2>
+            <ul class="lang-list">
+                <li><strong>Portuguese:</strong> Native / Bilingual</li>
+                <li><strong>English:</strong> Professional working proficiency</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Professional Experience</h2>
+    
+    <h3>Software Developer Consultant — Conkord</h3>
+    <p class="job-title">Fundão, Portugal • September 2021 – Present</p>
+    <p>Full-stack consultant working on enterprise web applications using <strong>Angular</strong>, <strong>.NET</strong>, and <strong>Azure</strong>, with responsibilities covering frontend development, backend microservices, and CI/CD/infrastructure.</p>
+
+    <h4>Frontend Development</h4>
+    <ul>
+        <li>Developed <strong>CRM systems</strong> and public portals, including a barcode-based membership acquisition platform and an internal CV/profile generator.</li>
+        <li>Implemented <strong>dynamic, reactive forms</strong> with Portuguese IBAN and Fiscal Number validation, input masking and real-time field formatting.</li>
+        <li>Introduced UI enhancements with <strong>Angular animations</strong>, skeleton loaders, modals, and toast notifications.</li>
+        <li>Built <strong>token refresh mechanisms</strong> using Angular HTTP interceptors and implemented client-side caching.</li>
+        <li>Led the migration of an <strong>Angular 7</strong> codebase to <strong>Angular 19</strong>, refactoring to Standalone Components, lazy-loaded routes, and typed templates.</li>
+        <li>Migrated older Angular apps to modern patterns (Zoneless, onPush, Signals).</li>
+    </ul>
+
+    <h4>GDPR Consent Management Platform</h4>
+    <ul>
+        <li>Built a GDPR platform with a <strong>static Angular 18</strong> frontend and a <strong>.NET microservice</strong> backend hosted in Azure using Docker.</li>
+        <li>Designed secure API endpoints to register, fetch, and update user consent configurations.</li>
+        <li>Developed responsive tabbed forms with loading states and confirmation modals.</li>
+    </ul>
+
+    <h4>Microservices & Infrastructure</h4>
+    <ul>
+        <li>Created <strong>.NET Core microservices</strong> for email syncing with Mailchimp, barcode processing, and GDPR tagging.</li>
+        <li>Migrated solutions from <strong>.NET Framework</strong> to <strong>.NET Core</strong>.</li>
+        <li>Developed <strong>Azure Function Apps</strong> and integrated Logic Apps with Blob Storage for error logging.</li>
+    </ul>
+
+    <h4>Municipal Transport Platform</h4>
+    <ul>
+        <li>Co-led technical architecture, set up <strong>Docker containers</strong>, NGINX configuration, and <strong>CI/CD pipelines with GitLab</strong>.</li>
+        <li>Managed task tracking using GitLab Kanban and performed code reviews.</li>
+    </ul>
+
+    <h2>Major Migration Projects</h2>
+    
+    <div class="project-block">
+        <strong>Angular 7 → Angular 19 Modernization</strong><br>
+        Migrated to Angular 19 with Bootstrap 4 → 5, converted to Standalone Components, implemented lazy-loaded routing, applied WCAG 2.x accessibility standards, and fully typified the legacy codebase.
+    </div>
+
+    <div class="project-block">
+        <strong>Angular 15 (IBM Carbon v10) → Angular 21 (Carbon v11)</strong><br>
+        Converted ZoneJs app to zoneless with signals and onPush, refactored for full responsive behavior, improved accessibility (WCAG), and implemented lazy loading for components and routes.
+    </div>
+
+    <div class="project-block">
+        <strong>.NET Project Libraries → .NET 8 & .NET 10</strong><br>
+        Built Azure DevOps pipelines to rebuild and publish all library versions to a private NuGet feed. Created .NET 8 and .NET 10 versions for all internal packages.
+    </div>
+
+    <div class="project-block">
+        <strong>.NET 5 Microservices → .NET 10</strong><br>
+        Upgraded multiple microservices, updated NuGet packages to secure versions, refactored outdated controller validations.
+    </div>
+
+    <h3>FINTECH — SANTANDER</h3>
+    <p>Worked on internal development tasks for <strong>banking/fintech systems</strong>, following strict security, compliance, and audit requirements.</p>
+
+    <h2>Education</h2>
+    <h3>Bachelor's Degree — Computer Engineering</h3>
+    <p class="job-title">Universidade da Beira Interior • September 2018 – July 2021</p>
+    <p><strong>Topics:</strong> Algorithms, Data Structures, Databases, Dependency Injection, Android, OpenGL</p>
+    <p><strong>Technologies:</strong> C, C++, OCaml, JavaScript, HTML, CSS, Java, SQL, WebAssembly</p>
+</body>
+</html>
