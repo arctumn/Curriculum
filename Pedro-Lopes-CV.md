@@ -11,7 +11,7 @@ Covilhã, Portugal • +351 963 318 521
 
 Full‑stack engineer and software developer consultant with **4+ years** of experience, focused on **Angular** and **.NET**. I work end‑to‑end on web applications: frontend (Angular, PrimeNG, Bootstrap), backend (.NET Core/.NET 5–10, microservices), and infrastructure (Docker, NGINX, Azure).
 
-I’ve been heavily involved in **modernizing legacy systems**, building **GDPR‑compliant platforms**, and designing internal CRMs and public‑facing portals. I also manage **CI/CD pipelines** (Azure DevOps, GitLab), set up infrastructure (Docker, NGINX, Azure), and participate in code reviews.
+I've been heavily involved in **modernizing legacy systems**, building **GDPR‑compliant platforms**, and designing internal CRMs and public‑facing portals. I also manage **CI/CD pipelines** (Azure DevOps, GitLab), set up infrastructure (Docker, NGINX, Azure), and participate in code reviews.
 
 My main concerns are **Performant Apps**, **strong typing** and **accessibility**.
 
@@ -158,7 +158,7 @@ Worked on internal development tasks for **banking/fintech systems**, following 
 
 ## EDUCATION
 
-### Bachelor’s Degree — Computer Engineering  
+### Bachelor's Degree — Computer Engineering  
 **Universidade da Beira Interior** • September 2018 – July 2021
 
 **Topics:** Algorithms, Data Structures, Databases, Dependency Injection, Android, OpenGL  
