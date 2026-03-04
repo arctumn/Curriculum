@@ -137,6 +137,13 @@ Full‑stack consultant working on enterprise web applications using **Angular**
 - Updated NuGet packages to supported, secure versions.  
 - Refactored outdated controller validations and removed deprecated libraries.
 
+- **.NET Framework Soap Services → .NET 10 Rest API**  
+- Refactored a .NET 4.6 Framework Soap to Rest
+- Streamlined and standardized the API flow to be (Controller -> Service -> Repository)
+- Optimized badly performant SQL Queries, to Indexable and SARGABLE queries 
+- Updated NuGet packages to supported, secure versions.
+- Added CICD to the project
+- Converted from windows to linux and docker support for the app
 ---
 
 ### Additional Angular & .NET Projects (Conkord)
